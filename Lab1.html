@@ -1,19 +1,25 @@
-<!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <h1 id="methods-in-c">Methods in C#</h1>
 
-<!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Methods in C# | HelenLalama.github.io</title>
-<meta name="generator" content="Jekyll v3.9.2" />
-<meta property="og:title" content="Methods in C#" />
-<meta property="og:locale" content="en_US" />
-<link rel="canonical" href="https://helenlalama.github.io/Lab1.html" />
-<meta property="og:url" content="https://helenlalama.github.io/Lab1.html" />
-<meta property="og:site_name" content="HelenLalama.github.io" />
-<meta property="og:type" content="website" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Methods in C#" />
-<script type="application/ld+json">
+<h2 id="define-a-method">Define a Method</h2>
+<p>To make a new method, we need to understand where and how to make a method.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>void CountToTen()
+{
+ for (int current = 1; current &lt;= 10; current++)
+ Console.WriteLine(current);
+}
+</code></pre></div></div>
+<p>The first thing you do is to determine the return type of your method. In this case is <em>void</em>.
+Next you decide the name of the method. On the example you we used the name <em>CountToTen</em>.
+Finally inside the parenthesis you put the parameter. Since the metod is of the type void, it remains empty.</p>
+
+<h2 id="important-things-of-methods">Important things of methods</h2>
+
+<ul>
+  <li>Methods Get Their Own Variables.</li>
+  <li>You can pass data into a method.</li>
+  <li>A method can have as many parameters as necessary.</li>
+  <li>Return values allow the method to send data back to the calling method.</li>
+</ul>
+
+<h2 id="link">Link</h2>
+<p>You may be using <a href="https://www.simplilearn.com/tutorials/csharp-tutorial/c-sharp-methods">C Sharp Methods</a>.</p>
